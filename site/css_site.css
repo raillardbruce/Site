@@ -1,0 +1,220 @@
+.entete {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    align-items: center;
+}
+
+.oentete1 {
+    width: 25%;
+    margin: 1%;
+}
+
+.oentete2 {
+    width: 50%;
+    text-align: center;
+    margin: 1%;
+
+}
+
+.menu {
+    text-decoration: none;
+    color: rgb(57, 57, 53);
+    font-weight: 800;
+    font-family: "Arial", sans-serif;
+    padding: 1%;
+    font-size: 12px;
+}
+
+.oentete3 {
+    width: 25%;
+    text-align: right;
+    margin: 1%;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row;
+}
+
+.section {
+    background-image: url(media/plates-header.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.section01 {
+    max-width: 40%;
+    text-align: center;
+    padding: 5%;
+    background-color: rgb(57, 57, 53);
+    color: white;
+    font-family: Georgia, serif;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border-right: solid 10px white;
+    border-left: solid 10px white;
+}
+
+.titre {
+    width: 15%;
+    padding: 4%;
+    border-bottom: solid 1px;
+    text-align: center;
+}
+
+.article {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    justify-content: center;
+    margin: 5%;
+}
+
+
+.objet {
+    width: 25%;
+    padding: 1%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.image {
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
+
+.chepa {
+    font-size: 15px;
+    color: rgb(125, 125, 128);
+}
+
+.name {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.price {
+    color: rgb(125, 125, 128);
+}
+
+.tiagram {
+    display: none;
+}
+
+.cadena {
+    display: none;
+}
+
+.bluestrip {
+    background-image: url(media/blue-stripe-stoneware-plate.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: 170px;
+}
+
+.mashiko {
+    background-image: url(media/mashiko-yaki-saucer.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: 170px;
+}
+
+@media only screen and (max-width: 425px) {
+    .section01 {
+        max-width: 70%;
+        font-size: 10px;
+        border-right: solid 5px white;
+        border-left: solid 5px white;
+        padding: 2%;
+    }
+
+    .imagehaut {
+        margin-top: 10%;
+    }
+
+    .objet {
+        width: 44%;
+        padding: 3%;
+        text-align: center;
+    }
+
+    .chepa {
+        font-size: 7px;
+    }
+
+    .name {
+        font-size: 7px;
+    }
+
+    .price {
+        font-size: 7px;
+    }
+
+    .image {
+        width: 100%;
+        height: auto;
+    }
+
+    .article {
+        width: 98%;
+        margin: 1%;
+    }
+
+    .oentete2 {
+        display: none;
+    }
+
+    .oentete3 {
+        display: none;
+    }
+
+    .oentete1 {
+        width: 80%;
+        text-align: center;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .tiagram {
+        display: initial;
+        width: 10%;
+    }
+
+    .cadena {
+        display: flex;
+        flex-flow: row nowrap;
+        width: 10%;
+        color: rgb(57, 57, 53);
+        font-weight: 800;
+        font-family: "Arial", sans-serif;
+    }
+
+    .mashiko {
+        width: 100%;
+        height: 117px;
+    }
+
+    .bluestrip {
+        width: 100%;
+        height: 117px;
+    }
+    .titre{
+        border: none;
+        margin-bottom: 0%;
+    }
+    .paragraphe{
+        margin-top: 0%;
+    }
+}
